@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Add Student</h1>
+    <form method="POST">
+        First Name: <input type="text" name="first_name"><br>
+        Last Name: <input type="text" name="last_name"><br>
+        Age: <input type="number" name="age"><br>
+        Grade: <input type="text" name="grade"><br>
+        Seat Number: <input type="number" name="seat_number"><br>
+        <input type="submit" value="Add Student">
+    </form>
+</body>
+</html>
